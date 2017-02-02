@@ -1,0 +1,40 @@
+// +-----+
+// |Progs|
+// +-----+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+// | NZP QC SRC             http://www.moddb.com/games/nazi-zombies-portable |
+// +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-+
+// | This file contains all a list of QuakeC files to compile into the final |
+// | output file (progs.dat by default)                                      |
+// +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-+
+
+
+../progs.dat                                        // Output File
+
+Defs.qc                                             // Definitions
+NZP_Defs.qc                                         // NZP specific definitions
+Rounds.qc                                           // Round system
+Main.qc                                             // Main subroutines
+Client.qc                                           // Client subroutines
+Damage.qc                                           // Damage handler
+
+Dummys.qc                                           // Null spawn functions
+Entities/Sub_Functions.qc							// Sub Functions
+Entities/Triggers.qc								// Map triggers
+Entities/Map_Entities.qc							// Map entities
+Entities/Internal.qc                                // Entity Management
+Entities/Lights.qc                                  // Light Entities
+Entities/Ambient.qc                                 // Ambient Sounds
+Entities/doors.qc                                 	// Doors
+Entities/window.qc                                 	// Window
+Entities/powerups.qc                                // Power ups
+Entities/Machines.qc                                // Perks and pack-a-punch
+
+ai/ai_core.qc										// AI core
+ai/waypoints_func.qc								// Waypoint functions
+ai/waypoints_core.qc								// Waypoints core
+ai/zombie_core.qc									// Zombie core
+ai/crawler_core.qc									// Crawler core
+
+Weapons/Weapon_Defines.qc							// Weapon functions
+Weapons/Frames_Core.qc                              // Frame core
+Weapons/Weapon_Core.qc                              // Weapon core

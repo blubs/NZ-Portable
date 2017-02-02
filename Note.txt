@@ -1,0 +1,2 @@
+This is the full source codes of the Nazi Zombies: Portable v1.0 release.
+Code is given as-is and is property of the NZP team. You are free to use, modify, and redistribute this code to your liking so long as proper credit is given.
